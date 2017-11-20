@@ -1,0 +1,21 @@
+body {
+      display: flex;
+      height: 775px;
+      border: 5px solid gold;
+      /*flex-direction: row;*/
+      /*flex-wrap: nowrap;*/
+      /*these are default values, no need to set them*/
+}
+
+
+div {
+      flex: 1 1 auto;
+      /*flex is shorthand property for flex-grow, flex-shrink, flex-basis properties*/
+      width: 400px;
+      height: 100px;
+      border: 1px solid red;
+      margin: 1em;
+      background-color: gray;
+      text-align: center;
+
+}
