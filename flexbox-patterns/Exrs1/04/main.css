@@ -1,0 +1,15 @@
+html, body {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div {
+    width: 100%;
+    height: 225px;
+    text-align: center;
+    line-height:125px;
+}

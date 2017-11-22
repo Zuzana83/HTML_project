@@ -1,0 +1,20 @@
+body {
+    padding: 0 2em;
+}
+
+/* header, aticle, footer stay the same width, that means we dont need to write their width*/
+header {
+   width: 100%;
+}
+
+article {
+   width: 100%;
+}
+
+aside {
+   width: 50%;
+}
+
+footer {
+   width: 100%;
+}

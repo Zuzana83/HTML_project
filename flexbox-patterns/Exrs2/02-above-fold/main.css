@@ -1,0 +1,28 @@
+html, body, div {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+html {
+   color: whitesmoke;
+}
+
+div {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid red;
+   height: 100vh;
+   background-image: url(tropics.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+p {
+   text-align: center;
+   font-size: 8rem;
+   text-transform: uppercase;
+}

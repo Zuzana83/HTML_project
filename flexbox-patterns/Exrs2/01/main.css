@@ -1,0 +1,10 @@
+html, body, ul, li, a {
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   box-sizing: border-box;
+}
+
+a {
+   display: block;
+}

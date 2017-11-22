@@ -1,0 +1,32 @@
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div:first-child {
+    background-image: url("australian.jpg");
+}
+
+div:nth-child(2) {
+    background-image: url("australian.jpg");
+}
+
+div:nth-child(3) {
+    background-image: url("australian.jpg");
+}
+
+div:nth-child(4) {
+    background-image: url("australian.jpg");
+}
+
+div:nth-child(5) {
+    background-image: url("australian.jpg");
+}
+
+div:nth-child(6) {
+    background-image: url("australian.jpg");
+}
+
+div:last-child{
+    background-image: url("australian.jpg");
+}
