@@ -1,0 +1,28 @@
+html, body, div {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 5px solid #25db37;
+}
+
+div {
+  width: 225px;
+  height: 125px;
+  margin: 20px;
+  background-color: #e28d3e;
+  border: 3px solid #932a0f;
+}
+
+.fleft {
+  float: left;
+}
+
+.cleared {
+  width: 75%;
+  height: 50px;
+  clear: both;
+}

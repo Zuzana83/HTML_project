@@ -1,0 +1,14 @@
+html, body, footer, div, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #5db8e8;
+    border: 2px solid #1215f6;
+}

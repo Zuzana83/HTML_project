@@ -1,0 +1,24 @@
+html, body, div {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+.vlk {
+   height: 450px;
+   width: 600px;
+   position: relative;
+   background-color: #5ccddd;
+   border: 2px solid #0a40aa;
+}
+
+.mlk {
+   position: absolute;
+   top: 90px;
+   right: 55px;
+   height: 200px;
+   width: 280px;
+   background-color: #d7574a;
+   border: 2px solid #6f330d;
+}

@@ -1,0 +1,26 @@
+html, body, div {
+  marign: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 75%;
+  height: 750px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+div {
+  width: 175px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #eb4260;
+  border: 3px solid #ac0000;
+}
+
+#iny {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}

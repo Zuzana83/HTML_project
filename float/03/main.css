@@ -1,0 +1,12 @@
+div {
+   width: 85%;
+   margin: 0 auto;
+   border: 3px solid gold;
+   overflow: auto;
+}
+
+img {
+  float: right;
+  border: 2px solid black;
+  margin: 15px;
+}

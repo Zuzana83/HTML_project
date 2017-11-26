@@ -1,0 +1,14 @@
+div {
+   width: 80%;
+   border: 4px solid black;
+   margin: 0 auto;
+}
+
+img {
+   float: left;
+   margin: 20px;
+}
+
+p {
+   /*padding: 5px;*/
+}

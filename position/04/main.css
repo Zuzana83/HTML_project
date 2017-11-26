@@ -1,0 +1,27 @@
+html, body, div, p {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#lavy {
+   width: 200px;
+   height: 500px;
+   position: absolute;
+   padding: 5px;
+   border: 2px solid gold;
+}
+
+#pravy {
+   margin-left: 200px;
+   padding: 5px;
+   height: 500px;
+   border: 2px solid red;
+}

@@ -1,0 +1,29 @@
+html, body, nav, main {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  color: #f1f1f1;
+}
+
+nav {
+  float: left;
+  height: 400px;
+  width: 25%;
+}
+
+main {
+  float: right;
+  height: 400px;
+  width: 74%;
+}
+
+nav, main {
+  background-color: #528c88;
+  border: 3px solid #142e2e;
+}
