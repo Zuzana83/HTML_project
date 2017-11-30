@@ -1,0 +1,5 @@
+body {
+   background-image: url('../../surf.jpeg');
+   background-repeat: repeat-y;
+   background-size: 300px 90px;
+}

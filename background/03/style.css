@@ -1,0 +1,5 @@
+body {
+   background-image: url('../../surf.jpeg');
+/*by default it is seto to repeat*/
+   background-repeat: repeat;
+}

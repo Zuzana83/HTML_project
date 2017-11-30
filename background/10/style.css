@@ -1,0 +1,9 @@
+div {
+   width: 450px;
+   height: 450px;
+   border: 10px groove gold;
+   background-image: url('../../surf.jpeg');
+   background-repeat: no-repeat;
+   background-size: 30%;
+   background-position: 50px 10px;
+}
