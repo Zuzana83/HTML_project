@@ -1,0 +1,87 @@
+html, body, nav, div, button, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.0vw;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background-color: gray;
+  border-bottom: 1px solid darkgray;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  /*flex-flow: row nowrap;*/
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+}
+
+button {
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  /*flex-flow: row nowrap;*/
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid hotpink;*/
+}
+
+img {
+  width: 45px;
+  heigth: 45px;
+}
+
+
+button:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+#atf {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 5px solid blue;*/
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /*border: 1px solid hotpink;*/
+}
+
+#big {
+  height: 20rem;
+  width: 20rem;
+}
+
+h1 {
+  font-size: 10rem;
+  color: rgba(169, 169, 169, 0.87);
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+  /*border: 1px solid green;*/
+}

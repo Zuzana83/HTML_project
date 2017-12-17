@@ -1,0 +1,58 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 3vw;
+}
+
+#obal{
+  height: 4.8rem;
+  width: 19.2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#prv {
+  background-color: lightblue;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid blue;
+  border-radius: 1rem 0 0 1rem;
+}
+
+#stred {
+  background-color: white;
+  flex-grow: 2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#tri {
+  background-color: lightblue;
+  border-left: 1px solid blue;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 1rem 1rem 0;
+}
+
+#prv:hover, #tri:hover {
+  background-color: rgb(66, 82, 233);
+  color: white;
+}

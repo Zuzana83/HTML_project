@@ -1,0 +1,93 @@
+header nav, header nav a, header svg {
+  display: flex;
+}
+
+header {
+  display: flex;
+  /*flex-direction: row;*/
+  /*flex-wrap: nowrap;*/
+  /*flex-flow: row nowrap;*/
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header div, header nav {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: rgb(232, 111, 13); DEBUGGING */
+  }
+
+  header nav {
+    width: 250px;
+    /*border: 1px solid red;*/
+}
+
+  header div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 90%;
+    width: 220px;
+    /*border: 1px solid hotpink;*/
+}
+
+header div a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  /*border: 1px solid green;*/
+}
+
+svg {
+  width: 30px;
+  height: 100%;
+  cursor: pointer;
+  /*border: 1px solid pink;*/
+}
+
+nav svg:hover {
+  border: 1px dashed white;
+  /*background-color: rgba(242, 242, 242, .2);*/
+  /*border-radius: 5px;*/
+}
+
+header div:hover {
+  border: 1px dashed white;
+}
+
+
+#idx-atf {
+  background-image: url("../img/honk-kong.jpg");
+}
+
+#idx-atf > div {
+  height: 20vh;
+}
+
+.idx-center-spacebetween {
+  margin-top: 0;
+}
+
+#idx-atf h1 {
+  font-size: 3rem;
+}
+
+#idx-atf h3 {
+  margin-top: .2rem;
+}
+
+
+footer {
+  display: none;
+}

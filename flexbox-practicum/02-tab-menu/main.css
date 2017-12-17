@@ -1,0 +1,36 @@
+body, html, nav, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 2vw;
+}
+
+nav {
+  height: 5rem;
+  width: 40rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid rgb(108, 108, 108);
+}
+
+button {
+  flex-grow: 1;
+  font-size: 1.5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid transparent;
+}
+
+button:hover {
+  border-bottom: 2px solid #00CED1;
+  cursor: pointer;
+}
