@@ -1,0 +1,32 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100%;
+}
+
+.icon {
+  fill: rgb(13, 96, 164);
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: MovingCircle;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-play-state: running;
+  /*animation-delay: 2s;*/
+}
+
+@keyframes MovingCircle {
+  0%   {left: 0%;}
+  100% {left: 70%;}
+}

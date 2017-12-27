@@ -1,0 +1,69 @@
+html, body, div, span, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1vw;
+  font-family: Helvetica, sans-serif;
+  color: #57727c;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.icon-mas {
+  font-size: 20rem;
+  color: rgb(188, 210, 218);
+}
+
+#atf-content {
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 27%;
+  border: 1px solid rgb(202, 208, 210);
+  border-radius: 4px;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid gold;*/
+}
+
+.card-bottom {
+  width: 100%;
+  text-align: center;
+  background-color: #EEF3F5;
+  margin-top: 1.6rem;
+  padding: 1.7rem;
+  border-top: 1px solid #D7DBDD;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: bolder;
+}

@@ -1,0 +1,54 @@
+html, body, div, h1, h2, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #86969C;
+  font-size: 1vw;
+}
+
+#atf {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.icon {
+  fill: #BCD2DA;
+  height: 1em;
+  width: 1em;
+}
+
+.icon-smile {
+  font-size: 10rem;
+  margin-top: 0.5rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+}
+
+
+button {
+  background-color: #4EBBE4;
+  border: 1px solid #16A2D7;
+  border-radius: 4px;
+  color: white;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  /*margin-top: 3rem;*/
+}

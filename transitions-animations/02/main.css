@@ -1,0 +1,29 @@
+html, body, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(119, 117, 117);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: rgb(226, 172, 35);
+  font-size: 1rem;
+  animation-name: ExpandText;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes ExpandText {
+  0% {font-size: 1rem;}
+  100% {font-size: 5rem; color: whitesmoke;}
+}
