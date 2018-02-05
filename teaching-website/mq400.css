@@ -1,0 +1,27 @@
+html, body, header, div, footer, h1, h3, a, nav {
+  margin: 0;
+  padding:0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#atf {
+  height: 100vh;
+  background-image: url("./images/g_s_03_five_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.signin {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+#great-bt {
+  margin-bottom: 3rem;
+}

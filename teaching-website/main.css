@@ -1,0 +1,161 @@
+html, body, header, div, footer, h1, h3, a, nav {
+  margin: 0;
+  padding:0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#atf {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/g_s_03_five.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  height: 4.5rem;
+  width: 100%;
+  /*padding: 0 3rem;*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+}
+
+.logo {
+  color: rgba(241, 241, 241, .9);
+  font-family: 'Lato';
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 1.2rem;
+}
+
+.signin {
+  /*width: 200px;*/
+  margin-right: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid blue;*/
+}
+
+div > span {
+  color: white;
+  font-size: .8rem;
+  margin-top: 7px;
+  /*margin-bottom: 4px;*/
+}
+
+.sgin-bt {
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 9px 19px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.sgin-bt:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  max-width: 800px;
+  font-family: 'Lato';
+  font-weight: 900;
+  line-height: 4.3rem;
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+h1:hover {
+  color: red;
+  cursor: pointer;
+}
+
+footer {
+  /*height: 29vh;*/
+  width: 100%;
+  /*padding-top: 2.5rem;*/
+  /*padding-bottom: 1.8rem;*/
+  background-color: rgba(255, 255, 255, .1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /*border: 1px solid khaki;*/
+}
+
+
+h3 {
+  font-size: 1.6rem;
+  font-family: 'Indie Flower', cursive;
+  font-weight: normal;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px 20px 35px 20px;
+}
+
+#great-bt {
+  font-family: sans-serif;
+  font-size: .9rem;
+  color: white;
+  background-color: red;
+  border-radius: 3px;
+  width: 220px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*padding: .7rem .9rem;*/
+  /*border: 1px solid gold;*/
+}
+
+nav {
+  width: 100%;
+  max-width: 1100px;
+  height: 2.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  /*border: 1px solid hotpink;*/
+}
+
+nav > a {
+  font-family: 'Lato';
+  font-weight: 300;
+  color: rgb(203, 203, 203);
+  font-size: 1.6rem;
+  text-align: center;
+  padding: .5rem 2rem;
+  /*border: 1px solid lime;*/
+  min-width: 120px;
+
+}
+
+nav > a:hover {
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 5px;
+  cursor: pointer;
+  /*padding: .5rem .7rem;*/
+}
